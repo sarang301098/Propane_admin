@@ -1,0 +1,19 @@
+[2022-07-26T05:35:02.678Z][backend][info] Server started - PORT: 3333
+[2022-07-26T06:04:34.088Z][backend][info] Server started - PORT: 3333
+[2022-07-26T06:46:19.991Z][backend][info] Server started - PORT: 3333
+[2022-07-26T06:53:00.084Z][backend][info] Server started - PORT: 3333
+[2022-07-26T06:54:40.613Z][backend][info] Server started - PORT: 3333
+[2022-07-26T06:55:06.398Z][backend][info] Server started - PORT: 3333
+[2022-07-26T06:55:53.870Z][backend][info] Server started - PORT: 3333
+[2022-07-26T06:56:29.627Z][backend][info] Server started - PORT: 3333
+[2022-07-26T06:57:50.474Z][backend][error] GET /users/profile/me 
+User: {
+  id: '706dd907-3b96-4ad7-84a4-f5ac91ebd68c',
+  email: 'admin@gmail.com'
+}
+Params: {}
+Query: {}
+Body: {}
+FindRelationsNotFoundError: Relation "adminAddress" was not found; please check if it is correct and really exists in your entity.
+[2022-07-26T06:58:21.792Z][backend][info] Server started - PORT: 3333
+[2022-07-26T12:14:19.470Z][backend][info] driver assignment completed at 08:00 AM.

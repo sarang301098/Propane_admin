@@ -1,0 +1,34 @@
+pipelines:
+   branches:
+     Propane - Development:
+       - step:
+           name: Building Progress
+           image: node:16.13
+           caches:
+             - node
+           script:
+             - npm i --legacy-peer-deps
+             - unset CI
+             - npm run build
+           artifacts:
+             - build/**
+       - step:
+           name: Deploy Progress
+           caches:
+             - node
+           script:
+             - apt-get install zip -y
+             - mv node_modules/ build/
+             - zip -r build.zip build/
+             - pipe: atlassian/scp-deploy:0.3.3
+               variables:
+                  USER: 'ubuntu'
+                  SERVER: '13.234.218.36' 
+                  REMOTE_PATH: '/var/www/html/propane/propane-admin/'
+                  LOCAL_PATH: './build.zip'
+             - pipe: atlassian/ssh-run:0.2.6
+               variables:
+                  SSH_USER: 'ubuntu'
+                  SERVER: '13.234.218.36'
+                  MODE: 'script'
+                  COMMAND: 'script.sh'

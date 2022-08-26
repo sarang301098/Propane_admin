@@ -1,0 +1,13 @@
+[2022-07-27T05:47:41.944Z][backend][info] Server started - PORT: 3333
+[2022-07-27T05:55:09.911Z][backend][info] Server started - PORT: 3333
+[2022-07-27T05:56:20.983Z][backend][info] Gracefully shutting down
+[2022-07-27T05:59:11.127Z][backend][info] Server started - PORT: 3333
+[2022-07-27T06:06:57.391Z][backend][error] Invalid credential
+[2022-07-27T06:06:57.394Z][backend][error] POST /users/forget-'******' {}
+Params: {}
+Query: {}
+Body: { email: 'fahad.m@peerbits.com', userType: 'admin' }
+Error: Invalid credential
+[2022-07-27T06:18:56.087Z][backend][info] Server started - PORT: 3333
+[2022-07-27T06:25:38.237Z][backend][info] Server started - PORT: 3333
+[2022-07-27T06:32:21.784Z][backend][info] Server started - PORT: 3333

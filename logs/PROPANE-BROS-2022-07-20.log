@@ -1,0 +1,354 @@
+[2022-07-20T08:11:21.822Z][backend][info] Server started - PORT: 3333
+[2022-07-20T08:11:54.415Z][backend][info] Gracefully shutting down
+[2022-07-20T08:11:54.417Z][backend][info] Gracefully shutting down
+[2022-07-20T08:12:13.819Z][backend][info] Server started - PORT: 3333
+[2022-07-20T10:08:43.128Z][backend][info] Gracefully shutting down
+[2022-07-20T10:08:47.873Z][backend][info] Server started - PORT: 3333
+[2022-07-20T10:48:15.383Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LHow7JegOrZGWtLv9MVMNk8',
+  checkForleakage: false
+}
+Error: Error in payment
+[2022-07-20T11:00:10.830Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:01:55.515Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:02:09.923Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:03:09.906Z][backend][info] Gracefully shutting down
+[2022-07-20T11:03:09.910Z][backend][info] Gracefully shutting down
+[2022-07-20T11:03:16.950Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:03:18.517Z][backend][info] Gracefully shutting down
+[2022-07-20T11:03:38.472Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:15:26.096Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:15:34.494Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: no
+[2022-07-20T11:19:03.261Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:19:36.954Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: no
+[2022-07-20T11:20:40.738Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:21:25.829Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:21:31.035Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: no
+[2022-07-20T11:23:24.153Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:23:26.897Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: no
+[2022-07-20T11:28:48.211Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:29:16.435Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: Error in payment
+[2022-07-20T11:30:01.713Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:30:08.909Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: no
+[2022-07-20T11:31:28.073Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: Cart is empty
+[2022-07-20T11:31:40.045Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: Cart is empty
+[2022-07-20T11:31:55.443Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:32:03.173Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: Cart is empty
+[2022-07-20T11:33:21.519Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: no
+[2022-07-20T11:34:27.614Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:34:55.806Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: Error in payment
+[2022-07-20T11:40:14.727Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:46:55.432Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:52:19.151Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:54:59.191Z][backend][info] Server started - PORT: 3333
+[2022-07-20T11:57:23.413Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:00:00.030Z][backend][info] driver assignment completed at 08:00 AM.
+[2022-07-20T12:00:35.193Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:05:19.868Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:05:29.276Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:06:26.987Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:11:07.313Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:11:33.695Z][backend][error] DELETE /orders/173 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 173 }
+Query: {}
+Body: { stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V' }
+Error: This PaymentIntent (pi_3LNbICJegOrZGWtL1WqTKu1i) does not have a successful charge to refund.
+[2022-07-20T12:17:15.684Z][backend][error] DELETE /orders/173 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 173 }
+Query: {}
+Body: {}
+Error: The transfer tr_1LNbIEJegOrZGWtLk6fxnA2R is already fully reversed.
+[2022-07-20T12:17:49.696Z][backend][error] DELETE /orders/173 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 173 }
+Query: {}
+Body: {}
+Error: Invalid integer: 87.04
+[2022-07-20T12:19:09.902Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:19:12.713Z][backend][error] DELETE /orders/173 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 173 }
+Query: {}
+Body: {}
+Error: The transfer tr_1LNbIDJegOrZGWtLZ7zEpCao is already fully reversed.
+[2022-07-20T12:20:58.543Z][backend][error] DELETE /orders/174 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 174 }
+Query: {}
+Body: {}
+Error: An error occurred with our connection to Stripe.
+[2022-07-20T12:21:06.580Z][backend][error] DELETE /orders/174 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 174 }
+Query: {}
+Body: {}
+Error: This PaymentIntent (pi_3LNbsPJegOrZGWtL1q32QXgg) does not have a successful charge to refund.
+[2022-07-20T12:22:33.970Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:42:28.159Z][backend][error] DELETE /orders/175 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 175 }
+Query: {}
+Body: {}
+Error: Invalid integer: 89.54
+[2022-07-20T12:43:02.172Z][backend][info] Server started - PORT: 3333
+[2022-07-20T12:43:11.303Z][backend][error] POST /orders 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: false
+}
+Error: Cart is empty
+[2022-07-20T12:47:43.298Z][backend][error] DELETE /orders/176 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 176 }
+Query: {}
+Body: {}
+EntityNotFoundError: Could not find any entity of type "OrderDetails" matching: 176
+[2022-07-20T13:09:26.713Z][backend][info] Server started - PORT: 3333
+[2022-07-20T13:10:03.863Z][backend][info] Server started - PORT: 3333
+[2022-07-20T13:19:02.516Z][backend][info] Server started - PORT: 3333
+[2022-07-20T13:19:44.358Z][backend][error] DELETE /orders/178 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 178 }
+Query: {}
+Body: {}
+Error: Payment is not completed.
+[2022-07-20T13:20:16.566Z][backend][error] DELETE /orders/178 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 178 }
+Query: {}
+Body: {}
+Error: Refund amount ($89.54) is greater than unrefunded amount on charge ($60.92)
+[2022-07-20T14:03:12.301Z][backend][info] Server started - PORT: 3333
+[2022-07-20T14:06:02.120Z][backend][error] POST /orders?stripeCardId=card_1LFHLeJegOrZGWtL9H8VGLVv&checkForleakage=true 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {
+  stripeCardId: 'card_1LFHLeJegOrZGWtL9H8VGLVv',
+  checkForleakage: 'true'
+}
+Body: {
+  stripeCardId: 'card_1LFHLeJegOrZGWtL9H8VGLVv',
+  checkForleakage: true
+}
+Error: Cart is empty
+[2022-07-20T14:06:12.499Z][backend][error] POST /orders?stripeCardId=card_1LNaSIJegOrZGWtLbPqyUt8V&checkForleakage=true 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: {}
+Query: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: 'true'
+}
+Body: {
+  stripeCardId: 'card_1LNaSIJegOrZGWtLbPqyUt8V',
+  checkForleakage: true
+}
+Error: Cart is empty
+[2022-07-20T14:08:57.127Z][backend][error] PUT /orders/182?status=cancelled 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 182 }
+Query: { status: 'cancelled' }
+Body: { status: 'cancelled' }
+Error: Invalid integer: 15430.000000000002
+[2022-07-20T14:09:08.213Z][backend][error] PUT /orders/182?status=cancelled 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 182 }
+Query: { status: 'cancelled' }
+Body: { status: 'cancelled' }
+Error: The transfer tr_1LNdYmJegOrZGWtLSntRH9lZ is already fully reversed.
+[2022-07-20T14:10:12.425Z][backend][error] PUT /orders/182?status=cancelled 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 182 }
+Query: { status: 'cancelled' }
+Body: { status: 'cancelled' }
+Error: The transfer tr_1LNdYmJegOrZGWtLSntRH9lZ is already fully reversed.
+[2022-07-20T14:10:41.801Z][backend][error] PUT /orders/181?status=cancelled 
+User: {
+  id: '27b39ab5-89a9-41fe-8ef0-1231d1fe33cf',
+  email: 'chetan.b@peerbits.com'
+}
+Params: { id: 181 }
+Query: { status: 'cancelled' }
+Body: { status: 'cancelled' }
+Error: Invalid integer: 15430.000000000002
+[2022-07-20T14:12:03.319Z][backend][info] Server started - PORT: 3333
