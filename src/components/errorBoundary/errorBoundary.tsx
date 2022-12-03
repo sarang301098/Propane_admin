@@ -1,11 +1,11 @@
-import React, { Component, ErrorInfo, ReactNode } from "react";
+import { Component, ErrorInfo, ReactNode } from "react";
 import { RouteComponentProps, withRouter } from "react-router-dom";
 
 interface Props {
   children?: ReactNode;
   hasError?: boolean;
-  error?: any;
-  errorInfo?: any;
+  error?: Error | null;
+  errorInfo?: ErrorInfo | null;
 }
 
 class ErrorBoundary extends Component<Props & RouteComponentProps> {
@@ -45,7 +45,9 @@ class ErrorBoundary extends Component<Props & RouteComponentProps> {
                   {error ? (
                     <div>
                       <pre style={{ color: "red" }}>
-                        <code>{error.toString()}</code>
+                        <code>
+                          {error.toString() || "Something went wrong!"}
+                        </code>
                       </pre>
                     </div>
                   ) : null}
