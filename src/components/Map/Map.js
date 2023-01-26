@@ -1,37 +1,13 @@
-/* eslint-disable no-undef */
 import React, { useState } from "react";
 import { compose, withProps } from "recompose";
 import {
   withScriptjs,
   withGoogleMap,
   GoogleMap,
-  // DirectionsRenderer,
   Marker,
   InfoWindow,
 } from "react-google-maps";
 import { BarsLoader } from "../loader/Loader";
-
-// {
-//   componentDidMount() {
-//     const DirectionsService = new window.google.maps.DirectionsService();
-//     DirectionsService.route(
-//       {
-//         origin: new window.google.maps.LatLng(41.85073, -87.65126),
-//         destination: new window.google.maps.LatLng(41.85258, -87.65141),
-//         travelMode: window.google.maps.TravelMode.DRIVING,
-//       },
-//       (result, status) => {
-//         if (status === window.google.maps.DirectionsStatus.OK) {
-//           this.setState({
-//             directions: result,
-//           });
-//         } else {
-//           console.error(`error fetching directions ${result}`);
-//         }
-//       }
-//     );
-//   },
-// }
 
 const CustomMap = compose(
   withProps({
@@ -46,6 +22,7 @@ const CustomMap = compose(
   withGoogleMap
 )((props) => {
   const [showInfo, setShowInfo] = useState(false);
+
   return (
     <GoogleMap
       googleMaps={props.googleMaps}
@@ -59,12 +36,6 @@ const CustomMap = compose(
           : { lat: 22.9937, lng: 72.5016 }
       }
     >
-      {/* <DirectionsRenderer
-        directions={[
-          { lat: 22.9937, lng: 72.5016 },
-          { lat: 23.0362, lng: 72.5811 },
-        ]}
-      /> */}
       {props?.markers?.length &&
         props?.markers?.map(
           (marker, index) =>
@@ -85,7 +56,7 @@ const CustomMap = compose(
                         padding: `12px`,
                       }}
                     >
-                      Hello, Taipei!
+                      Hello There!
                     </div>
                   </InfoWindow>
                 )}
