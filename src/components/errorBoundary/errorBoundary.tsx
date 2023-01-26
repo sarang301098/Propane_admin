@@ -34,7 +34,7 @@ class ErrorBoundary extends Component<Props & RouteComponentProps> {
             <div className="container">
               <div className="page-header mb-3">
                 <h1 style={{ color: "red", marginLeft: "-30px" }}>
-                  The below error occurred in one of your React components:
+                  The below error occurred:
                 </h1>
               </div>
               <div className="card border-none">
@@ -54,7 +54,7 @@ class ErrorBoundary extends Component<Props & RouteComponentProps> {
                   {errorInfo && errorInfo.componentStack ? (
                     <div>
                       <pre style={{ color: "red" }}>
-                        <code>{errorInfo.componentStack}</code>
+                        <code>{errorInfo && errorInfo.componentStack}</code>
                       </pre>
                     </div>
                   ) : null}

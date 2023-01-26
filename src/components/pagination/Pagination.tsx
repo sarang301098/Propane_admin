@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import ReactPaginate from "react-paginate";
 import { useSelector } from "react-redux";
 import { withRouter } from "react-router-dom";
 import { RouteComponentProps } from "react-router-dom";
+import ReactPaginate from "react-paginate";
+
 import TRootState from "../../store/root.types";
 
 interface Props extends RouteComponentProps {
@@ -34,7 +35,9 @@ const Pagination: React.FC<Props> = ({
   cancelledOrders,
   todayOrders,
 }) => {
-  const itemsPerPage = useSelector((state: TRootState) => state.pagination.perPageItems);
+  const itemsPerPage = useSelector(
+    (state: TRootState) => state.pagination.perPageItems
+  );
 
   const handlePageClick = (event: { selected: number }) => {
     setPage && setPage(event.selected + 1);
@@ -48,7 +51,6 @@ const Pagination: React.FC<Props> = ({
 
   useEffect(() => {
     dispatchAction && dispatchAction(page || 1);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page, filter]);
 
   useEffect(() => {
@@ -56,7 +58,6 @@ const Pagination: React.FC<Props> = ({
       setPage && setPage(() => page && page - 1);
       history.push(history.location.pathname, { page: page - 1 });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [Math.ceil(pageCount / itemsPerPage)]);
 
   return (
@@ -69,12 +70,22 @@ const Pagination: React.FC<Props> = ({
           setFilterBy={setFilterBy}
         />
 
-        <div className={`d-flex mt-3 ${pageCount === 0 ? "justify-content-end" : "justify-content-between"}`}>
+        <div
+          className={`d-flex mt-3 ${
+            pageCount === 0 ? "justify-content-end" : "justify-content-between"
+          }`}
+        >
           {!(pageCount === 0) && (
             <div className="col-sm-12 col-md-5">
-              <div className="mt-1 font-size-14" role="status" aria-live="polite">
-                Showing {Number(page) === 1 ? 1 : (Number(page) - 1) * itemsPerPage + 1} to{" "}
-                {Math.min(Number(page) * itemsPerPage, pageCount)} of {pageCount} entries
+              <div
+                className="mt-1 font-size-14"
+                role="status"
+                aria-live="polite"
+              >
+                Showing{" "}
+                {Number(page) === 1 ? 1 : (Number(page) - 1) * itemsPerPage + 1}{" "}
+                to {Math.min(Number(page) * itemsPerPage, pageCount)} of{" "}
+                {pageCount} entries
               </div>
             </div>
           )}
@@ -97,7 +108,6 @@ const Pagination: React.FC<Props> = ({
             containerClassName="pagination"
             activeClassName="active"
             marginPagesDisplayed={4}
-            // disableInitialCallback={true}
           />
         </div>
       </div>
